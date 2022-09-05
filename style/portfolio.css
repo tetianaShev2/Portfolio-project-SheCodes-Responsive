@@ -25,7 +25,7 @@ p {
   font-size: 96px;
 }
 .greeting h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family)
   font-weight: normal;
 
   font-size: 24px;
