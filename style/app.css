@@ -33,20 +33,30 @@ p {
   margin: 0;
   color: #272142;
 }
-.about-section {
-  padding: 160px 20px;
+.content-container {
+  padding: 40px 20px;
 }
-.about-section-content {
+.content {
   padding: 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 50px;
+  margin-top: 20px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.content {
   padding: 0 20px;
 }
 .greeting h2 {
@@ -61,8 +71,7 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.greeting p {
-}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -102,7 +111,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
