@@ -27,11 +27,17 @@ h2 {
 h3 {
   font-size: 36px;
 }
+h4 {
+  font-size: 46px;
+}
 p {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
   color: #272142;
+}
+footer {
+  margin: 60px 60px;
 }
 .content-container {
   padding: 40px 20px;
@@ -108,12 +114,47 @@ p {
   padding: 0 15px;
   line-height: 20px;
 }
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  display: block;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  background: var(--secondary-color);
+  color: var(--branding-color);
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 110ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 60px 120px;
+  border-radius: 10px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
   }
   h2 {
     font-size: 42px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    padding: 20px 20px;
   }
   .greeting {
     padding: 80px 20px;
@@ -125,5 +166,8 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
