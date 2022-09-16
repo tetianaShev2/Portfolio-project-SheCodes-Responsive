@@ -79,7 +79,7 @@ footer {
 .greeting {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .btn-branding {
@@ -156,9 +156,7 @@ footer .contact-box {
   p {
     padding: 20px 20px;
   }
-  .greeting {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0;
     text-align: center;
