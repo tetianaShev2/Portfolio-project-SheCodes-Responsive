@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #2f8f9d;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #b3e8e5;
 }
 body {
   font-family: var(--default-font-family);
@@ -151,6 +151,9 @@ footer .contact-box {
   background: var(--secondary-color);
   padding: 60px 120px;
   border-radius: 10px;
+}
+footer .source-code-link {
+  color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
